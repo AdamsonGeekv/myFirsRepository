@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
 
+func printMyName() {
+    for item in 1...10 {
+        print("Hello, World. My name is Adam!")
+    }
+}
+
+printMyName()
